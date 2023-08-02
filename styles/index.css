@@ -197,13 +197,14 @@ body{
 
 .top-text {
   position: absolute;
+  padding: 0 20px;
   top: 22px;
-  left: 133px;
   color: #FFF;
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  word-break: break-all;
 }
 @media (max-width: 767px) {
   .top-text {
@@ -213,6 +214,10 @@ body{
   }
 }
 
+.mems__img {
+  width: 500px;
+  border-radius: 30px;
+}
 @media (max-width: 767px) {
   .mems__img {
     width: 100%;
@@ -222,13 +227,14 @@ body{
 
 .bottom-text {
   position: absolute;
+  padding: 0 20px;
   bottom: 30px;
-  left: 133px;
   color: #FFF;
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  word-break: break-all;
 }
 @media (max-width: 767px) {
   .bottom-text {

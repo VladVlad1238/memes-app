@@ -7,7 +7,7 @@ class API {
     try {
       const promise = await fetch(`${this.baseUrl}/get_memes`)
       const response = await promise.json()
-      console.log(response)
+      return response
     } catch (error) {
       console.log(error)
     }

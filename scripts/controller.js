@@ -2,8 +2,8 @@ class Controller {
   constructor() {
     this.model = new Model({
       onTextChanged: this.handleModelTextChanged,
-      oneMemeChanged: this.handleModelMemesListChanged,
-      onMemesChanged: this.handleModelMemeChanged
+      oneMemeChanged: this.handleModelMemeChanged,
+      onMemesChanged: this.handleModelMemesListChanged 
     })
     this.view = new View({
       onNewText: this.handleViewTextChanged,

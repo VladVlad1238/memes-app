@@ -15,9 +15,9 @@ class Model {
  };
 
  getMeme = (memeName) => {
-  const memesName = this.memes
+  const memeNames = this.memes
   let memeUrl = null;
-  memesName.data.memes.forEach((meme) => {
+  memeNames.data.memes.forEach((meme) => {
     if(meme.name === memeName) {
       memeUrl = meme.url
     }
