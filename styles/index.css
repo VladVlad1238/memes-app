@@ -118,6 +118,7 @@ body{
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  padding: 10px;
   margin-bottom: 42px;
   width: 393px;
   height: 54px;

@@ -22,7 +22,9 @@
         <h2 class="setting__title">Setting:</h2>
         <div class="setting__mems-wrapper">
           <h3 class="mems__title">Mem</h3>
-          <select id="mem-select" class="mem-select" name="mem"></select>
+          <select id="mem-select" class="mem-select" name="mem">
+            <option value="">Choose image</option>
+          </select>
         </div>
         <div class="top-text__wrapper">
           <h3 class="top-text__title">Top text</h3>
@@ -37,13 +39,20 @@
       <div class="preview__container">
         <h2 class="preview__title">Preview:</h2>
         <div class="preview__content-container">
-          <p id="top-text" class="top-text">dfsfsdfsdf</p>
+          <p id="top-text" class="top-text"></p>
           <img id="mems__img" class="mems__img" src="resourec/mem-img.png" alt="random mem image">
-          <p id="bottom-tex" class="bottom-text">dfsfsdfsdf</p>
+          <p id="bottom-text" class="bottom-text"></p>
         </div>
       </div>
     </div>
   </main>
 
+
+  <script src="scripts/view.js"></script>
+  <script src="scripts/model.js"></script>
+  <script src="scripts/api.js"></script>
+  <script src="scripts/controller.js"></script>
+  <script src="scripts/index.js"></script>
+ <!-- <script src="test.js"></script>-->
 </body>
 </html>
