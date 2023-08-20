@@ -2,9 +2,8 @@ class Model {
   constructor({ onTextChanged, oneMemeChanged, onMemesChanged }) {
     this.memes = []
     this.onTextChanged = onTextChanged;
-    this.onMemeChanged = oneMemeChanged
-    this.onMemesChanged = onMemesChanged 
-    console.log(this.memes)
+    this.onMemeChanged = oneMemeChanged;
+    this.onMemesChanged = onMemesChanged;
  };
 
  addText = (textAbove, textBelow) => {
@@ -19,15 +18,15 @@ class Model {
   let memeUrl = null;
   memeNames.data.memes.forEach((meme) => {
     if(meme.name === memeName) {
-      memeUrl = meme.url
-    }
-    return memeUrl
-  })
-  this.onMemeChanged(memeUrl)
+      memeUrl = meme.url;
+    };
+    return memeUrl;
+  });
+  this.onMemeChanged(memeUrl);
  }
 
  setMeme = (memes) => {
-  this.memes = memes
-  this.onMemesChanged(this.memes)
- }
+  this.memes = memes;
+  this.onMemesChanged(this.memes);
+ };
 };
