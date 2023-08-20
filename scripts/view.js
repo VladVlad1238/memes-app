@@ -16,7 +16,7 @@ class View {
     this.topTextInputNode.addEventListener('input', this.handleNewText);
     this.bottomTextInputNode.addEventListener('input', this.handleNewText);
 
-    this.clearButton.addEventListener('click', this.resetInput);
+    this.clearButton.addEventListener('click', this._resetInput);
   }
 
   handleNewText = () => {
